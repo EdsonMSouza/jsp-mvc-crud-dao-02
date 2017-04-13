@@ -10,8 +10,8 @@ CREATE TABLE aluno(
     id          int             primary key not null auto_increment,
     ra          varchar(12)     not null,
     nome        varchar(100)    not null,
-    curso       varchar(30)     not null,
-    disciplina  varchar(30)     not null,
+    curso       varchar(50)     not null,
+    disciplina  varchar(50)     not null,
     email       varchar(30)     not null
 );
 
